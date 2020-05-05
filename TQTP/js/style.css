@@ -1,0 +1,304 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-family:'微软雅黑'; background:#0d52c4; /*width:1200px; height:1920px;margin: 0 auto*/}
+
+.bg-img{
+ width: 100%;
+ height: 100%;
+ background-image: url("bg.png");
+ background-size:100% 100% ;
+}
+.bg-width{
+ width:1900px; height:1076px;margin:0 auto;
+}
+
+*{ margin:0; padding:0}
+em{ font-style:normal}
+ul{ list-style:none}
+a,a:hover{ text-decoration:none}
+img{ border:none; vertical-align:top}
+.header{ height:90px; background:url(../images/header.png) no-repeat center bottom; padding-bottom:12px}
+.header .logo_icon{ padding-left:25px}
+.header .logo_icon img{
+ margin:25px 0px 0px 0px;
+ width: 300px;
+ height: 60px;
+}
+.header .logo_icon a{ display:inline-block;}
+.header .logo_icon .icon02{ margin-right:25px}
+
+.main{ /*margin:0px 22px; */padding-top:10px}
+.mainSlide{ position: relative; width: 100%; height: auto; float: left; overflow: hidden; }
+.mainSlide .ulList li{ position: relative; }
+.mainSlide .hd {  height:40px; line-height:40px; padding-top:18px}
+.mainSlide .hd ul { text-align:center; }
+.mainSlide .hd ul li { cursor:pointer; display:inline-block; *display:inline; zoom:1; width:40px; height:40px; margin:0px 10px; overflow:hidden; background:rgba(255,255,255,0.4);line-height:999px; border-radius: 50%; }
+.mainSlide .hd ul li.on { background:rgba(255,255,255,1); }
+.mainSlide .list_title{ text-align:center; position:relative; margin-top:5px}
+.mainSlide .list_title .cn_tit{ font-size:2rem; font-weight:bold; color:#fbac02}
+.mainSlide .list_title .en_tit{ color:#fbac02; font-size:38px}
+ .date{top:10px;padding-top:10px; text-align:left; color:#fff;margin-left:59%;}
+ .date .l,.mainSlide .list_title .date .r{ float:left}
+ .date .l p{ font-size:23px; font-weight:300; line-height:26px}
+ .date .l p span{ font-size:17px}
+ .date .r{ width:140px; height:100px; background:#2ca8ff; text-align:center; line-height:100px; margin-left:10px; -webkit-border-radius:8px; -moz-border-radius:8px; border-radius:8px; font-size:48px}
+.mainSlide .basetitle{
+ color:#02d2f7;
+ font-size:2rem;
+ padding:0px 0px 10px 10px;
+}
+.mainSlide .basetitle span{ color:#2ca8ff; font-size:1.5rem; /*float:right;*/margin-left: 220px; padding-top:20px}
+.mainSlide .region_box,.mainSlide .warning_box{ background:rgba(255,255,255,0.05); height:446px}
+.region_box .region_l{ /*width:750px;*/width:512px; text-align:center; float:left;height: 430px;}
+.region_box .region_l .l_title{
+ color:#fff;
+ text-shadow:5px 5px 5px rgba(141,141,141,0.75);
+ font-size:2.5rem;
+ padding-top:20px;
+ /*width:750px*/
+ width:350px}
+.region_box .region_l .l_title .en_title{ font-size:1.8rem; margin-bottom:5px}
+.region_box .region_l .l_text{ text-align:left; /*padding-left:23px;*/ position:relative;top: -60px;left: 175px;}
+.region_box .region_l .l_text img{ width:600px;height: 370px /*width:750px*/}
+.region_box .region_l .l_text .box{ position:absolute; left:0px; top:0px; color:#fff; z-index:5}
+.region_box .region_l .l_text .box .box_tit span{ font-size:1.5rem;/*font-size:30px;*/ background:url(../images/box_tit.png) no-repeat left center; /*padding-left:50px*/}
+.region_box .region_l .l_text .box p{ font-size: 0.8rem;/*font-size:20px; */padding-left:0px; padding-top:3px}
+.region_box .region_l .l_text .box .iconimg{ margin:0px 0px 5px -25px}
+.region_box .region_l .l_text .box .iconimg img{ width:auto}
+.region_box .region_l .l_text .box01{
+ left: 367px;
+ /* left: 460px; */
+ top: 63px;
+}
+.region_box .region_l .l_text .box02{
+ /* left:190px; top:160px*/
+ left: 141px;
+ top: 104px;
+}
+.region_box .region_l .l_text .box02 .box_tit span,.region_box .region_l .l_text .box06 .box_tit span{background:url(../images/box_tit.png) no-repeat right center;/* padding-right:50px;*/ padding-left:0px}
+.region_box .region_l .l_text .box02 p,.region_box .region_l .l_text .box06 p{ padding-left:0px}
+.region_box .region_l .l_text .box03{
+ /*left:225px; top:350px*/
+ left: 160px;
+ top: 235px;
+}
+.region_box .region_l .l_text .box04{
+ /*left:422px; top:212px*/
+ left: 310px;
+ top:140px;
+}
+.region_box .region_l .l_text .box05{
+ /*left:530px; top:305px*/
+ left: 415px;
+ top: 205px;
+}
+.region_box .region_l .l_text .box06{ left:270px; top:400px}
+.region_box .region_l .l_text .box09{ /*left:355px; top:405px*/
+ left: 260px;
+ top: 290px;
+
+}
+.region_box .region_l .l_text .box08{
+ /*left:465px; top:410px*/
+ left: 342px;
+ top: 278px;
+}
+.region_box .region_l .l_text .box07{
+ /*left:355px; top:305px*/
+ left: 264px;
+ top: 216px;
+}
+.region_box .region_l .l_text .line07{ /* background:url(../images/boxbg.png) no-repeat left center; */ width:400px; height:355px; left:365px; top:-5px; position:absolute; z-index:2; background-size:cover}
+
+.region_box .region_l .l_text .box08  p {
+    padding-left: 50px;
+}
+
+.region_box .regin_r{ /*width:520px;*/ width:58%; float:left; /*margin-right:20px*/margin-left:15%;}
+.region_box .regin_r .r_title{ border-bottom:2px solid rgba(255,255,255,0.19); margin-top:60px; width: 95%;}
+.region_box .regin_r .r_title{ color:#feffff; font-size:80px; line-height:46px}
+.region_box .regin_r .r_title span{ font-size:1.2rem; color:#2ca8ff; line-height:50px; padding-top:40px}
+.region_box .regin_r .r_text p{float:left;padding-left: 10px;;width:520px; padding-top:50px; font-size:1.4rem; color:rgba(255,255,255,0.72)}
+.region_box .regin_r .r_text p span{ width:190px; float:right; text-align:left;text-align: left;}
+.mainSlide .warning_box{ height:650px}
+.mainSlide .warning_box .early_tit{ border-bottom:4px solid rgba(255,255,255,0.27); margin:0px 0px 0px 42px; height:100px; padding-top:30px;width:5%;}
+.mainSlide .warning_box .early_tit a{ color:rgba(255,255,255,0.7); font-size:36px; height:100px; display:inline-block; margin-right:50px; padding:0px 5px}
+.mainSlide .warning_box .early_tit a.current{ border-bottom:4px solid #ebec00; color:#ebec00}
+.mainSlide .warning_box .early_text{ padding:25px 33px 0px 42px; width: 50%;}
+.mainSlide .warning_box .early_text .text{ position:relative; padding:0px 500px 0px 0px; font-size:1.6rem; color:rgba(255,255,255,0.72);top: -142px;  left: 330px;}
+.mainSlide .warning_box .early_text .text .icon{ position:absolute; left:0px; top:15px}
+.mainSlide .warning_box .early_text .text .icon img{ width:140px}
+.mainSlide .warning_box .early_text .text p{ line-height:42px;width: 554px;float:left;font-size:24px;}
+.mainSlide .warning_box .early_text .img{ position:absolute; right:-324px; top:-12px}
+.mainSlide .warning_box .early_text .img img{ width:150%;height: 230px;}
+.mainSlide .prediction dl{ overflow:hidden}
+ .mainSlide .prediction dl dd{ width:175px; height:500px; background:rgba(255,255,255,0.05); float:left; margin-left:6px; text-align:center;/* margin-bottom:25px*/}
+ .mainSlide .prediction dl dd.first{ margin-left:0px;}
+.mainSlide .prediction dl dd p{ font-size:1.4rem; color:rgba(255,255,255,0.72); padding-top:50px;overflow: hidden;}
+.mainSlide .prediction dl dd p span{ font-size:22px; margin-left:22px}
+.mainSlide .prediction dl dd p.icon{ margin:0px 0px}
+.mainSlide .prediction dl dd p.icon img{ height:120px}
+.mainSlide .newslist{ height:60px; background:rgba(0,0,0,0.05); overflow:hidden}
+
+.mainSlide .newslist dl dd a{ font-size:30px; color:#fff; display:inline-block; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; background:url(../images/news.png) no-repeat left center; padding-left:70px}
+.mainSlide .newslist dl dd{ line-height:60px; overflow:hidden; padding:0px 28px; height:60px; display:inline-block}
+.mainSlide .newslist dl dd a:hover{ color:#ebec00}
+.mainSlide .prediction10{ position:relative}
+.mainSlide .prediction10 dl dd{ width:188px; margin-left:2px; height:475px; /*margin-bottom:25px; padding-top:13px*/}
+.mainSlide .prediction10 dl dd p{ padding:0px 0px 0px 0px; text-align:center}
+.mainSlide .prediction10 dl dd p.icon img{ height:100px;width: 150px}
+.mainSlide .prediction10 dl dd p.weather{ height:80px; overflow:hidden}
+.mainSlide .prediction10 dl dd p.wee{ color:rgba(2,210,247,0.72)}
+.mainSlide .prediction10 .data_box .topimg{ position:absolute; left:0px; top:484px; width:100%; text-align:center}
+.mainSlide .prediction10 .data_box .bottomimg{ position:absolute; left:0px; bottom:42px; width:100%; text-align:center}
+.mainSlide .region_box .weather_text{ position:relative; padding:50px 530px 0px 330px}
+.mainSlide .region_box .weather_text .icon{ position:absolute; /*left:65px;*/left:35px; top:40px}
+.mainSlide .region_box .weather_text .icon img{ width:400px;height: 200px}
+.mainSlide .region_box .weather_text .text p{ color:#fff; font-size:1.6rem; padding-bottom:10px}
+.mainSlide .region_box .weather_text .text p span,.mainSlide .region_box .weather_text .text p em{ font-size:24px; color:#bfd1ef}
+.mainSlide .region_box .weather_text .text p em{ float:right; text-align:right; width:230px}
+.mainSlide .region_box .weather_text .tem{ position:absolute; right:54px; top:20px}
+.mainSlide .region_box .weather_text .tem dl dt,.mainSlide .region_box .weather_text .tem dl dd{ float:left; text-align:right; margin-left:25px}
+.mainSlide .region_box .weather_text .tem dl dd{ margin-top:-10px; margin-left:30px}
+.mainSlide .region_box .weather_text .tem dl dd p em{ display:block; font-size:50px; color:#5bc8f5; line-height:50px}
+.mainSlide .region_box .weather_text .tem dl dd p span{ color:rgba(255,255,255,0.42); font-size:25px; display:block}
+.mainSlide .region_box .weather_text .tem dl dd p.max{ margin-bottom:35px}
+.mainSlide .region_box .weather_text .tem dl dd p.max em{ color:#f5ff5c}
+
+#today_live{
+ width: 570px;
+ position: absolute;
+ left: 620px;
+ top:28px;
+}
+.l_text .box_tit .img_width img{
+  width: 24px;
+ height: 18px;
+ margin-top: 5px
+}
+.ulList{
+ width: 1080px;
+ height: 840px;
+ left: 0px;
+ position: relative;
+ overflow: hidden;
+ padding: 0px;
+ margin: 0px;
+}
+
+
+
+
+
+
+
+/*手机*/
+@media screen and (max-width:767px){
+ .bg-width{
+  width: 100%;
+ }
+ .header{
+  height: 200px;
+ }
+ .date{
+  margin:0px;
+ }
+ .header .logo_icon{
+  width: 90%;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center
+ }
+ .header .logo_icon img{
+  margin-left: 36px;
+  padding-bottom: 20px;
+ }
+ .mainSlide .basetitle {
+  color: #02d2f7;
+  font-size: 1.5rem;
+  padding: 30px 0px 30px 10px;
+ }
+}
+
+/*平板*/
+@media screen and (min-width:768px) and (max-width:991px){
+ .mainSlide .basetitle{
+  font-size: 2rem;
+ }
+ .bg-width{
+  width: 100%;
+ }
+ .date {
+  margin-left:20%;
+ }
+
+ .mainSlide .basetitle span{
+  float:none;
+  margin-left:0;
+  display: block;
+ }
+ .region_box .region_l {
+  float: left;
+  margin-left: 12%;
+ }
+ .mainSlide .region_box{
+  height:1143px;
+ }
+ .region_box .regin_r{
+  margin-left:18%;
+ }
+ .mainSlide .warning_box .early_text{
+  padding:0;
+ }
+ .mainSlide .warning_box .early_tit{
+  margin:0;
+ }
+
+ .mainSlide .warning_box .early_text .img img{
+  width: 80%;
+
+ }
+ .mainSlide .warning_box .early_text .img {
+  position: absolute;
+  right: 88px;
+  top: 44px;
+ }
+ .ulList{
+  height: 2700px;
+ }
+ .prediction{
+  width:72%;
+ }
+ .mainSlide .prediction dl dd.first{
+  margin-left:6px;
+ }
+ .mainSlide .prediction dl dd{
+  width: 248px;
+ }
+ .mainSlide .region_box .weather_text .icon{
+  left:0;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
