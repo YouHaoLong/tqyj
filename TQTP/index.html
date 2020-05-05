@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)https://data.szmb.gov.cn/zhihuipingshan/index.html -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>智慧坪山-Smart Pingshan</title>
+<script type="text/javascript" src="./js/qbl.lib.min.js"></script>
+<script type="text/javascript" src="./js/vanwinslib.js"></script>
+<script type="text/javascript" src="./js/config(1).js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script type="text/javascript" src="./js/lib.js"></script>
+<script type="text/javascript" src="./js/raphael-min.js"></script>
+<script src="./js/jquery-1.11.3.js"></script>
+<script src="./js/jquery.SuperSlide.2.1.1.js"></script>
+<script src="./js/jquery.tabso_yeso.js"></script>
+<link href="./js/style.css" rel="stylesheet">
+<script>
+	var Local_Root = "https://data.szmb.gov.cn/site/szmb/";
+</script>
+</head>
+
+<body class="bg-img">
+<div class="bg-width">
+<div class="header">
+	<div class="logo_icon">
+    	<a href="https://data.szmb.gov.cn/zhihuipingshan/index.html#" style="float: left;"><img src="./js/headericon.png"></a>
+         <a class="date">
+             <a class="l">
+                 <!--<p>2018年</p>-->
+                 <!--<p>-->
+                     <!--<span>03月30日 </span>-->
+                 <!--</p>-->
+                 <!--<p>星期五 </p>-->
+                 <!--<p>-->
+                     <!--<span>Fri.Mar.30th</span>-->
+                 <!--</p>-->
+             </a>
+             <!--<a class="r">15</a>-->
+             <!--<a class="r" style="width: 20px;background: #0d52c4;">:</a>-->
+             <!--<a class="r">27</a>-->
+         </a>
+        <!--<a href="https://data.szmb.gov.cn/zhihuipingshan/index.html#" style="float: right;">-->
+            <!--<img src="./智慧坪山-Smart Pingshan_files/headericon3.png">-->
+        <!--</a> <!--<a href="https://data.szmb.gov.cn/zhihuipingshan/index.html#" style="float: right;">-->
+            <!--<img src="./智慧坪山-Smart Pingshan_files/headericon3.png">-->
+        <!--</a>-->
+    </div>
+</div>
+
+<div class="main">
+    <div class="mainSlide">
+		  <!--  <div class="list_title">
+           	<div class="cn_tit">会展中心</div>
+               <div class="en_tit">Convention & Exhibition Center</div>
+        </div> -->
+        <div class="bd">
+            <div class="tempWrap"
+                 style="overflow:hidden;
+                 position:relative;
+                 width:1900px">
+                <ul class="ulList">
+            	<li style="float: left; width: 1900px;">
+                    <div class="basetitle" style="font-width:30px;font-height:10px">天气实况 Observational Weather</div>
+                    <div class="region_box" id="shang">
+                    	<div class="region_l" id="shang1">
+                        	<div class="l_title">
+                            	<div class="cn_title">坪山区</div>
+                                <div class="en_title">Pingshan District</div>
+                            </div>
+                            <div class="l_text">
+                            	<img src="js/l_textimg.png">
+                               <div class="box01 box">
+                                	<div class="box_tit">
+                                        <span class="img_width">
+                                            <img src="./js/dingwei1.png"
+                                                 alt="">
+                                        </span>
+                                        <span>坑梓</span>
+                                    </div>
+                                    <p>温度：<span id="kengziT">26.7</span>℃</p>
+                                    <p>雨量：<span id="kengziR">0</span>mm</p>
+                                </div>
+                                <div class="box02 box">
+                                	<div class="box_tit">
+
+                                        <span>松子坑水库</span>
+                                        <span class="img_width">
+                                            <img src="./js/dingwei1.png" alt="">
+                                        </span>
+                                    </div>
+                                    <p>温度：<span id="songzikengT">27.7</span>℃</p>
+                                    <p>雨量：<span id="songzikengR">0</span>mm</p>
+                                </div>
+                                <div class="box03 box">
+                                	<div class="box_tit">
+                                        <span class="img_width">
+                                            <img src="./js/dingwei1.png"
+                                                 alt="">
+                                        </span>
+                                        <span>沙湖</span></div>
+                                    <p>温度：<span id="shahuT">26.4</span>℃</p>
+                                    <p>雨量：<span id="shahuR">0</span>mm</p>
+                                </div>
+                                <div class="box04 box">
+                                	<div class="box_tit">
+                                        <span class="img_width">
+                                            <img src="./js/dingwei1.png"
+                                                 alt="">
+                                        </span>
+                                        <span>竹坑</span></div>
+                                    <p>温度：<span id="zhukengT">26.4</span>℃</p>
+                                    <p>雨量：<span id="zhukengR">0</span>mm</p>
+                                </div>
+                                <div class="box05 box">
+                                	<div class="box_tit">
+                                        <span class="img_width">
+                                            <img src="./js/dingwei1.png"
+                                                 alt="">
+                                        </span>
+                                        <span>田头</span></div>
+                                    <p>温度：<span id="tiantouT">25.9</span>℃</p>
+                                    <p>雨量：<span id="tiantouR">0</span>mm</p>
+                                </div>
+                                <div class="box09 box">
+                                	<div class="box_tit">
+                                        <span class="img_width">
+                                            <img src="./js/dingwei1.png"
+                                                 alt="">
+                                        </span>
+                                        <span >马峦</span></div>
+                                    <p>温度：<span id="maruanT">24.2</span>℃</p>
+                                    <p>雨量：<span id="maruanR">0</span>mm</p>
+                                </div> 
+                                <div class="box08 box">
+                                	<div class="box_tit">
+                                        <span class="img_width" style="margin-left:22px;">
+                                            <img src="./js/dingwei1.png"
+                                                 alt="">
+                                        </span>
+                                        <span>江岭</span></div>
+                                    <p>温度：<span id="jianglingT">25.2</span>℃</p>
+                                    <p>雨量：<span id="jianglingR">0</span>mm</p>
+                                </div>
+                                <div class="box07 box">
+                                	<div class="box_tit">
+                                        <span class="img_width">
+                                            <img src="./js/dingwei1.png"
+                                                 alt="">
+                                        </span>
+                                        <span>坪山</span></div>
+                                    <p>温度：<span id="pingshanT">25.2</span>℃</p>
+                                    <p>雨量：<span id="pingshanR">0</span>mm</p> 
+                                </div>
+                                 
+                                
+                                <div class="line07"></div>
+                            </div>
+                        </div>
+                        <div class="regin_r" id="shang2">
+                        	<div class="r_title"
+                                 id="huizhanTtime">
+                                <div style="font-size: 36px;">
+                                    松子坑水库
+                                    <a style="color: #f5ff5c;
+                                    font-size:46px;
+                                    margin-left:20px">
+                                        26.4℃
+                                    </a>
+                                    <span style="margin-left:20px;">Updated at2018-03-30 15:15:00</span>
+                                </div>
+
+                            </div>
+                            <div class="r_text">
+                            	<p>风向 Wind Direction<span id="huizhanfeng">西南风SW</span></p>
+                                <p>风速 Wind Speed<span id="huizhanfengsu">4m/s</span></p>
+                                <p>湿度 Humidity<span id="huizhanshidu">-</span></p>
+                                <p>能见度 Visibility<span id="huizhannengjiandu">22.7km</span></p>
+                                <p>24小时降雨量 24hours Rainfall<span id="huizhan24HR">0mm</span></p>
+                                <p>小时降雨量 Hourly Rainfall<span id="huizhanR01H">0mm</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basetitle">天气预警  Weather Warnings</div>
+                    <div class="warning_box" style="height:242px;" id="alarm">
+                        <div class="early_tit">
+                            <a style="font-size: 50px;" id="alarm0" href="javascript:void(0)" class="current">
+                                <img style="width: 120px; height: 80px" src="huoxian.png">
+                            </a>
+                        </div>
+                        <div class="cl"></div>
+                        <div class="early_text">
+                            <div class="text" style="display:block">
+                                <div class="icon"></div> <div class="des">
+                                <p>预警信号：  Wild Fire  火险</p>
+                                <p>发布时间：2018-03-21 07:00:00</p>
+                                <p>发布区域：全市陆地</p>
+                                <p>Issued time：2018-03-21 07:00:00</p>
+                                <p>Subarea in force：the land area of Shenzhen</p>
+                            </div>
+                                <div class="img">
+                                    <img src="yujinditu.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="basetitle">未来逐三小时预报 3-hourly Weather Forecast</div>-->
+                     <!--<div class="prediction" id="Hourly_forecast">-->
+                         <!--<dl>-->
+                             <!--<dd style="height:700px" class="first">-->
+                                 <!--<p>16:00<span>PM</span></p>-->
+                                 <!--<p style="padding-top: 60px" class="icon">-->
+                                     <!--<img alt="多云" title="多云Cloudy" src="./智慧坪山-Smart Pingshan_files/02_2.png">-->
+                                 <!--</p>-->
+                                 <!--<p>多云</p>-->
+                                 <!--<p style="font-size: 22px;height:90px">Partly cloudy</p>-->
+                                 <!--<p style="padding-top: 0px">26℃</p>-->
+                             <!--</dd>-->
+                             <!--<dd style="height:700px">-->
+                                 <!--<p>19:00<span>PM</span></p>-->
+                                 <!--<p style="padding-top: 0px" class="icon">-->
+                                     <!--<img alt="多云" title="多云Cloudy" src="./智慧坪山-Smart Pingshan_files/12_2.png">-->
+                                 <!--</p>-->
+                                 <!--<p>多云</p>-->
+                                 <!--<p style="font-size: 22px;height:90px">Cloudy</p>-->
+                                 <!--<p style="padding-top: 0px">24℃</p>-->
+                             <!--</dd>-->
+                             <!--<dd style="height:700px">-->
+                                 <!--<p>-->
+                                     <!--22:00<span>PM</span>-->
+                                 <!--</p>-->
+                                 <!--<p style="padding-top: 0px" class="icon">-->
+                                     <!--<img alt="多云" title="多云Cloudy" src="./智慧坪山-Smart Pingshan_files/12_2.png">-->
+                                 <!--</p>-->
+                                 <!--<p>多云</p>-->
+                                 <!--<p style="font-size: 22px;height:90px">Cloudy</p>-->
+                                 <!--<p style="padding-top: 0px">22℃</p>-->
+                             <!--</dd>-->
+
+                             <!--<dd style="height:700px">-->
+                                 <!--<p>1:00<span>AM</span></p>-->
+                                 <!--<p style="padding-top: 0px" class="icon">-->
+                                     <!--<img alt="多云" title="多云Cloudy" src="./智慧坪山-Smart Pingshan_files/12_2.png">-->
+                                 <!--</p>-->
+                                 <!--<p>多云</p><p style="font-size: 22px;height:90px">Cloudy</p>-->
+                                 <!--<p style="padding-top: 0px">20℃</p>-->
+                             <!--</dd>-->
+
+                             <!--<dd style="height:700px">-->
+                                 <!--<p>4:00<span>AM</span></p>-->
+                                 <!--<p style="padding-top: 0px" class="icon">-->
+                                     <!--<img alt="多云" title="多云Cloudy" src="./智慧坪山-Smart Pingshan_files/12_2.png">-->
+                                 <!--</p>-->
+                                 <!--<p>多云</p>-->
+                                 <!--<p style="font-size: 22px;height:90px">Cloudy</p>-->
+                                 <!--<p style="padding-top: 0px">19℃</p>-->
+                             <!--</dd>-->
+                             <!--<dd style="height:700px">-->
+                                 <!--<p>4:00<span>AM</span></p>-->
+                                 <!--<p style="padding-top: 0px" class="icon">-->
+                                     <!--<img alt="多云" title="多云Cloudy" src="./智慧坪山-Smart Pingshan_files/12_2.png">-->
+                                 <!--</p>-->
+                                 <!--<p>多云</p>-->
+                                 <!--<p style="font-size: 22px;height:90px">Cloudy</p>-->
+                                 <!--<p style="padding-top: 0px">19℃</p>-->
+                             <!--</dd>-->
+                         <!--</dl>-->
+                     <!--</div>-->
+                </li>
+            	<li style="float: left; width: 1900px;">
+                    <div class="basetitle">今日天气 Today's Weather<span id="today_updatetime">Updated at 03-30  12:16</span></div>
+                    <div class="region_box" style="height:260px">
+                    	<div class="weather_text">
+                        	<div class="icon">
+                                <img id="today_icon" src="./智慧坪山-Smart Pingshan_files/02.png">
+                            </div>
+                            <div class="text" id="today_live">
+                                <p>多云间晴天</p>
+                                <p>Cloudy</p>
+                                <p>
+                                    <span>风向 Wind Direction</span><em>东E</em>
+                                </p>
+                                <p>
+                                    <span>风速 Wind Speed</span>
+                                    <em style="width: 250px;">force 2-3(级)</em>
+                                </p>
+                                <p>
+                                    <span>湿度 Humidity</span><em>45-75%</em>
+                                </p>
+                            </div>
+                            <div class="tem">
+                            	<dl>
+                                	<dt><img src="./js/temicon.png"></dt>
+                                    <dd>
+                                    	<p class="max"><span>H</span><em id="today_maxt">28℃</em></p>
+                                        <p><span>L</span><em id="today_mint">22℃</em></p>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basetitle">未来10天预报 10-day Weather Forecast</div>
+                    <div class="prediction prediction10">
+                    	<dl id="yb_10day">
+                            <dd class="first">
+                            <p style="height:30px;">03-31</p>
+                            <p style="height:30px;" class="wee">周六</p>
+                            <p style="height:40px;" class="wee">Sat.</p>
+                            <p style="height:116px" class="icon">
+                                <img src="./智慧坪山-Smart Pingshan_files/02.png"></p>
+                            <p style="height:60px" class="weather">晴天间多云</p>
+                            <p style="height:112px">Clear and fine with some cloud and dry air</p>
+                            <p>
+                                <span style="color:#5bc8f5;margin-right:10px">20℃</span>/<span style="color: #f5ff5c">28℃</span>
+                            </p>
+                        </dd>
+                            <dd>
+                                <p style="height:30px;">04-01</p>
+                                <p style="height:30px;" class="wee">周日</p>
+                                <p style="height:40px;" class="wee">Sun.</p>
+                                <p style="height:116px" class="icon">
+                                    <img src="./智慧坪山-Smart Pingshan_files/02.png"></p>
+                                <p style="height:60px" class="weather">晴天间多云</p>
+                                <p style="height:112px">Clear and fine with some cloud and dry air</p>
+                                <p>
+                                    <span style="color:#5bc8f5;margin-right:10px">21℃</span>/<span style="color: #f5ff5c">28℃</span>
+                                </p>
+                            </dd>
+                            <dd>
+                                <p style="height:30px;">04-02</p>
+                                <p style="height:30px;">周一</p>
+                                <p style="height:40px;">Mon.</p>
+                                <p style="height:116px" class="icon">
+                                    <img src="./智慧坪山-Smart Pingshan_files/02_2.png">
+                                </p>
+                                <p style="height:60px" class="weather">多云间晴天</p>
+                                <p style="height:112px">Cloudy, mostly sunny</p>
+                                <p>
+                                    <span style="color:#5bc8f5;margin-right:10px">21℃</span>/<span style="color: #f5ff5c">28℃</span>
+                                </p>
+                            </dd>
+                            <dd>
+                                <p style="height:30px;">04-03</p>
+                                <p style="height:30px;">周二</p>
+                                <p style="height:40px;">Tue.</p>
+                                <p style="height:116px" class="icon">
+                                    <img src="./智慧坪山-Smart Pingshan_files/02_2.png">
+                                </p>
+                                <p style="height:60px" class="weather">多云间晴天</p>
+                                <p style="height:112px">Cloudy, mostly sunny</p>
+                                <p>
+                                    <span style="color:#5bc8f5;margin-right:10px">21℃</span>/<span style="color: #f5ff5c">29℃</span>
+                                </p>
+                            </dd>
+                            <dd><p style="height:30px;">04-04</p>
+                                <p style="height:30px;">周三</p>
+                                <p style="height:40px;">Wed.</p>
+                                <p style="height:116px" class="icon">
+                                    <img src="./智慧坪山-Smart Pingshan_files/02_2.png"></p>
+                                <p style="height:60px" class="weather">多云，早晚有轻雾</p>
+                                <p style="height:112px">Cloudy, mostly sunny</p>
+                                <p>
+                                    <span style="color:#5bc8f5;margin-right:10px">21℃</span>/<span style="color: #f5ff5c">28℃</span>
+                                </p>
+                            </dd>
+                            <dd>
+                                <p style="height:30px;">04-05</p>
+                                <p style="height:30px;">周四</p>
+                                <p style="height:40px;">Thu.</p>
+                                <p style="height:116px" class="icon">
+                                <img src="./智慧坪山-Smart Pingshan_files/02_2.png">
+                            </p><p style="height:60px" class="weather">多云</p>
+                                <p style="height:112px">Cloudy, mostly sunny</p>
+                                <p>
+                                    <span style="color:#5bc8f5;margin-right:10px">22℃</span>/<span style="color: #f5ff5c">29℃</span>
+                                </p></dd>
+                            <dd>
+                                <p style="height:30px;">04-06</p>
+                                <p style="height:30px;">周五</p>
+                                <p style="height:40px;">Fri.</p>
+                                <p style="height:116px" class="icon">
+                                    <img src="./智慧坪山-Smart Pingshan_files/02_2.png">
+                                </p>
+                                <p style="height:60px" class="weather">多云，局部有小雨</p>
+                                <p style="height:112px">Cloudy, mostly sunny</p>
+                                <p>
+                                    <span style="color:#5bc8f5;margin-right:10px">20℃</span>/<span style="color: #f5ff5c">26℃</span>
+                                </p>
+                            </dd>
+                            <dd>
+                                <p style="height:30px;">04-07</p>
+                                <p style="height:30px;" class="wee">周六</p>
+                                <p style="height:40px;" class="wee">Sat.</p>
+                                <p style="height:116px" class="icon">
+                                    <img src="./智慧坪山-Smart Pingshan_files/02_2.png">
+                                </p>
+                                <p style="height:60px" class="weather">多云间晴天</p>
+                                <p style="height:112px">Cloudy, mostly sunny</p>
+                                <p>
+                                    <span style="color:#5bc8f5;margin-right:10px">16℃</span>/<span style="color: #f5ff5c">24℃</span>
+                                </p>
+                            </dd>
+                            <dd>
+                                <p style="height:30px;">04-08</p>
+                                <p style="height:30px;" class="wee">周日</p>
+                                <p style="height:40px;" class="wee">Mon.</p>
+                                <p style="height:116px" class="icon">
+                                    <img src="./智慧坪山-Smart Pingshan_files/02_2.png">
+                                </p>
+                                <p style="height:60px" class="weather">多云间晴天</p>
+                                <p style="height:112px">Cloudy, mostly sunny</p>
+                                <p>
+                                    <span style="color:#5bc8f5;margin-right:10px">18℃</span>/<span style="color: #f5ff5c">26℃</span>
+                                </p>
+                            </dd>
+                            <dd>
+                                <p style="height:30px">04-08</p>
+                                <p style="height:30px;">周一</p>
+                                <p style="height:40px;">Sun.</p>
+                                <p style="height:116px" class="icon">
+                                    <img src="./智慧坪山-Smart Pingshan_files/02_2.png">
+                                </p>
+                                <p style="height:60px" class="weather">多云间晴天</p>
+                                <p style="height:112px">Cloudy, mostly sunny</p>
+                                <p>
+                                    <span style="color:#5bc8f5;margin-right:10px">18℃</span>/<span style="color: #f5ff5c">26℃</span>
+                                </p>
+                            </dd>
+                        </dl>
+                    </div>
+                   
+                </li> 
+            </ul></div>
+        </div>
+         <div class="newslist">
+          	<marquee direction="left" loop="10">
+          		<dl id="newslist">
+              	<a></a><dd><a>【深圳天气趋势】31日至4月5日多云间晴天，天气温暖，气温变化平稳，早晚有轻雾。</a></dd><a></a><dd><a>【深圳天气趋势】31日至4月5日多云间晴天，天气温暖，气温变化平稳，早晚有轻雾。</a></dd></dl>
+             </marquee>
+        </div>
+        <div class="hd" id="page">
+            <ul><li class="">1</li><li class="on">2</li></ul>
+        </div>
+    </div>
+</div>
+<script src="./js/index.js"></script>
+
+</div>
+</body>
+</html>
